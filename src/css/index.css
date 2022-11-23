@@ -1,0 +1,343 @@
+.main-section {
+    background-color: red;
+    height: 420px;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.603)), url(./images/main_bg.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.text-blue {
+    color: #192F60;
+}
+
+.box_shadow {
+    width: 32%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px 2px #07070729;
+}
+
+.image {
+    width: 50%;
+    height: 100%;
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .logo {
+        width: 70px;
+        height: 70px;
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    .searchtext{
+        width: 100% !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-control, .input-group {
+        width: 80% !important;
+    }
+
+    .main-section {
+        height: auto;
+        background-size: cover;
+    }
+
+    .box_shadow {
+        width: 100%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px 2px #07070729;
+    }
+}
+
+/* Search Page */
+
+.main-section1 {
+    
+    display: flex;
+    align-items: center;
+    padding: 8px 64px;
+}
+
+.brand {
+    /* border: 1px black solid; */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.brand-logo {
+    color: red;
+}
+
+.main-section1-header {
+    /* border: 1px black solid; */
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 9px 0;
+}
+
+.btn-header {
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.create-account {
+    border: 1px solid white;
+    margin-left: 15px;
+}
+
+.header-line {
+    display: flex;
+    display: inline;
+    justify-content: left;
+    font-size: 34px;
+    font-weight: bold;
+    color: #192F60;
+}
+
+.city {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.container {
+    display: flex;
+}
+
+.flex-item-1 {
+   margin-top: 20px;
+   margin-left: 0px;
+   width: 300px;
+   height: 690px;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   box-shadow: 0px 3px 6px 2px #07070729;
+   padding: 40px;
+}
+
+.filter {
+    /* margin-top: 30px;
+    margin-left: 30px; */
+    font-size: 18px;
+    display: flex;
+    display: inline;
+    font-weight: bold;
+    color: #192F60;
+}
+
+.location {
+    font-size: 16px;
+    display: flex;
+    display: inline;
+    color: #192F60;
+}
+
+.location-box {
+    padding: 5px 35px 5px 5px;
+    border: 1px solid #8C96AB;
+    color: #8C96AB;
+}
+
+.main-head {
+    font-size: 16px;
+    color: #192F60;
+}
+
+.form-check-input {
+    margin: 5px;
+}
+
+.item-text {
+    color: #8C96AB;
+}
+
+.sort {
+    font-weight: bold;
+    font-size: 18px;
+    color: #192F60;
+}
+
+.flex-item-2 {
+    /* border: 1px black solid; */
+    box-shadow: 0px 3px 6px 2px #07070729;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.food-item-img {
+    width: 120px;
+    height: 115px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.description {
+    margin-top: 15px;
+    color: #192F60;
+}
+
+.line-1 {
+    margin: 0px 0px 0px 150px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.line-2 {
+    margin: 0px 0px 0px 150px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.line-3 {
+    margin: 0px 0px 0px 150px;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+hr {
+    width: 750px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+table {
+    position: relative;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+th {
+    position: relative;
+    left: 45px;
+}
+
+.rupee {
+    position: relative;
+    left: 43px;
+}
+
+.pagination-section {
+    padding: relative;
+    display: flex;
+    justify-content: center;
+    color: #8C96AB;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    margin: 5px 0;
+}
+
+.pagination-li {
+    border: 1px solid #8C96AB;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+    padding: 5px 8px 5px 8px;
+}
+
+.pagination-li-1 {
+    background-color: #8C96AB;
+    color: white;
+    border: 1px solid #8C96AB;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+    padding: 5px 8px 5px 8px;
+}
+
+/* restaurant page */
+
+.restaurant-main-img {
+    height: 70vh;
+    overflow: hidden;
+}
+
+.restaurant-main-img img {
+    height: 150%;
+    width: 100%;
+}
+
+.btn-gallery {
+    top: 80%;
+    right: 15%;
+    background-color: #c2c5cfe8;
+    color: black;
+    font-weight: bold;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+/* menu items popup */
+.menu-food-item {
+    width: 90px;
+    height: 90px;
+    background-color: #192F60;
+    position: relative;
+}
+
+.menu-food-item .add {
+    position: absolute;
+    left: 25%;
+    bottom: -20%;
+}
+
+.menu-food-item menu_img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-food-item .order-item-count {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -20%;
+}
+
+.menu-food-item .order-item-count span {
+    background-color: white;
+    padding: 2px 5px;
+    border: 2px solid gray;
+    margin: 0 2px;
+}
